@@ -1,0 +1,38 @@
+@font-face {
+  font-family: IRanSans;
+  src: url("../fonts/IRANSans/IRANSansWeb_Light.woff") format("woff");
+}
+* {
+  font-family: IRanSans;
+  direction: rtl;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header * {
+    /* font-family: IRanSans; */
+    color: #FFF;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.d-flex{
+  display: flex;
+}
+.flex-centering{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.reverse{
+  flex-direction: row-reverse;
+}
+
